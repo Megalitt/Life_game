@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игра ЖИЗНЬ</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="header">
+    <div class="title">Игра жизнь</div>
+    <div class="messages"></div>
+  </div>
+  <main class="game">
+    <canvas class="game__area" ></canvas>
+  </main>
+    <div class="buttons__area">
+      <label>Размер поля:</label>
+      <input type="number" placeholder="Размер" onchange="handleSubmit()"/>
+      <button id="play">Запуск</button>
+      <button id="step">Шаг</button>
+      <button id="pause">Пауза</button>
+      <button id="clear">Очистка поля</button>
+      <button id="glider">Планер</button>
+      <button id="random">Случайный выбор</button>
+      <div id="timer" class="timer"></div>
+    </div>
+  <script src="index.js"></script>
+</body>
+</html>
