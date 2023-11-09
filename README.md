@@ -1,1 +1,1 @@
-# Life_game
+ https://megalitt.github.io/Life_game/ 
