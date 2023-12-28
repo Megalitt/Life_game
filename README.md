@@ -1,1 +1,1 @@
- https://megalitt.github.io/Life_game/ 
+Игра жизнь https://megalitt.github.io/Life_game/ 
